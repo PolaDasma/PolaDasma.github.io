@@ -1,0 +1,485 @@
+<!Doctype HTML>
+<html>
+
+    <!-- HADE -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Shop Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+            rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Reem Kufi'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="shop.css">
+        <link rel="icon" href="logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+
+    <!-- BODIEEEEEEEEEEEEE -->
+    <body>
+        <div class="header-container">
+            <header>
+                <a href="#" class="logo"><img src="logo.png" alt=""></a>
+    
+                <ul class="navmenu">
+                    <li><a href="..index.html">Home</a></li>
+                                        <li><a href="../shop/shop.html">Shop</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../blog container/blogContainer.html">Blog</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+    
+                <div class="nav-icon">
+
+            <!--search bar-->
+                <div class="header-search-container">
+                    <div class="box">
+                        <input onkeyup="search()" id="search-item" type="text" placeholder="Search Product">
+                        <i class='bx bx-search'></i>
+                    </div>
+
+                    <div id="product-list" onmouseover="showProduct()" onmouseout="hideProduct()" class="search-product-container">
+
+                    <!--PRODUCT 1-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product1/product.html">
+                                <img src="image/product1.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Triple Nordic Corner Sofa</h2>
+                                <p>$1290.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 2-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product2/product.html">
+                                    <img src="image/product2.png" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Mahogany Boomerang Coffee Table</h2>
+                                <p>$1149.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                         <!--PRODUCT 3-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product3/product.html">
+                                    <img src="image/product3.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Nordic Bed</h2>
+                                <p>$477.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                         <!--PRODUCT 4-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product4/product.html">
+                                    <img src="image/product4.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Sintered Stone Top Dining Table</h2>
+                                <p>$1826.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                         <!--PRODUCT 5-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product5/product.html">
+                                    <img src="image/product5.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Geometric Cage Pendant Light</h2>
+                                <p>$57.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 6-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product6/product.html">
+
+                                <img src="image/product6.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Raindrop Multiple Hanging Lamp</h2>
+                                <p>$809.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+
+                        
+                        <!--PRODUCT 7-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product7/product.html">
+                                    <img src="image/product7.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>LED Full Length Lighted Mirror</h2>
+                                <p>$282.00</p>
+                            </a>
+                            </div>
+                        </div>
+                        
+                        <!--PRODUCT 8-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product8/product.html">
+                                    <img src="image/product8.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Monochrome Bedroom</h2>
+                                <p>$852.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 9-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product9/product.html">
+                                    <img src="image/product9.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Office Desk</h2>
+                                <p>$1299.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 10-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product10/product.html">
+                                    <img src="image/product10.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Partition Shelves</h2>
+                                <p>$299.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 11-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product11/product.html">
+                                    <img src="image/product11.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Drawer Dresser</h2>
+                                <p>$599.00</p>
+                            </a>
+                            </div>
+                        </div>
+
+                        <!--PRODUCT 12-->
+                        <div class="product-search">
+                            <div class="product-search-image">
+                                <a href="../products/product12/product.html">
+                                    <img src="image/product12.jpg" alt="">
+                            </div>
+
+                            <div class="product-search-info">
+                                <h2>Shoe Storage</h2>
+                                <p>$699.00</p>
+                            </a>
+                            </div>
+                        </div>
+                </div>
+         
+            </div>
+                    <a href="../cart/cart.html"><i class='bx bxs-cart'></i></a>
+                    <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
+            </header>
+        </div>
+
+        <div class="main-home">
+                    <div class="main-text">
+                        <h5>Shop With Us!</h5>
+                        <p>Home / Shop</p>
+                    </div>
+
+                    <div class="sofa-image">
+                        <img src="sofa.png" alt="">
+                    </div>
+        </div>
+        <!--END OF HEADER-->
+
+        <!--CONTAINER OF THE BODY-->
+        <div class="container">
+
+            <!--LEFT SIDE OF FLEX BOX-->
+            <div class="search">
+                <p class="search-prod">Search Product</p>
+                <hr class="line">
+            
+        <!--Search Bar Part-->
+        <div class="search_wrap">
+                <div class="search-bar">
+                    <input type="text" class="input" id="search-input" placeholder="Search Product...">
+                    <div id = "search" class="btn btn_common">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+
+        <!--Categories Part-->
+        <div>
+            <p class="categories-prod">Categories</p>
+            <hr class="line2">
+        </div>
+
+        <div class="categories">
+
+            <ul>
+                <li class="category">Amazing Lights<i class='bx bxs-right-arrow-alt'></i></li> 
+                <li class="category">Chair & Table<i class='bx bxs-right-arrow-alt'></i></li>
+                <li class="category">Comfortable Sofa<i class='bx bxs-right-arrow-alt'></i></li>
+                <li class="category">Storage<i class='bx bxs-right-arrow-alt'></i></li>
+                <li class="category">House Decoration<i class='bx bxs-right-arrow-alt'></i></li>
+                <li class="category">Bedroom<i class='bx bxs-right-arrow-alt'></i></li>
+            </ul>
+            
+        </div>
+        
+
+        <!--Related Products Part-->
+        <div>
+            <p class="product-prod">Related Products</p>
+            <hr class="line3">
+        </div>
+
+    <div class="product-wrap">
+        
+        <div>
+            <ul>
+            <a href="../products/product1/product.html">
+                
+                <li class="product-relate">
+                <img class ="relatedImg" src="image/product1.jpg" alt="">
+                <p class="name-prod">Triple Nordic Corner Sofa</p>
+                <p class="related-price">$1290.00</p>
+            </a>
+
+            <a href="../products/product2/product.html">
+                <li class="product-relate">
+                <img class ="relatedImg" src="image/product2.png" alt="">
+                <p class="name-prod">Mahogany Boomerang Coffee Table</p>
+                <p class="related-price">$1149.00</p>
+            </a>
+
+            <a href="../products/product3/product.html">
+                <li class="product-relate">
+                <img class ="relatedImg" src="image/product3.jpg" alt="">
+                <p class="name-prod">Nordic Bed</p>
+                <p class="related-price">$477.00</p>
+            </a>
+
+           
+            </ul>
+        </div>
+    </div>
+        </div>
+
+
+            <div class="product">
+
+            <div class="top-default">
+                
+                <select class="sort-default" id="sort" onchange="getSelectedValue();">
+                    <option value="1">Sort By Default</option>
+                    <option value="2">Low to High</option>
+                    <option value="3">High to Low</option>
+                </select>
+                <p class="num-result">Showing 1-5 of 12 results</p>
+
+                <a href="../shop grid view/shopGrid.html"><p class="menu-view"><i class='bx bx-menu' ></i></p></a>
+
+                <a href="../shop/shop.html"><p class="grid-view"><i class='bx bxs-grid-alt' ></i></p></a>
+
+            </div>  
+
+                <div class="product-wrapper">
+
+
+            <!--ROW 1-->
+            <div class="row">
+    
+                <!--FIRST PRODUCT-->
+                <a href="../products/product3/product.html">
+                    <div class="product-container">
+    
+                        <div class="picture-container">
+                            <img src="image/product3.jpg" alt="">
+                        </div>
+    
+                        <div class="bottom-wrapper">
+                            
+                            <div class="name-price">
+                                <p class="product-name">Nordic Bed</p>
+                                <p class="product-price">$477.00</p>
+                            </div>
+    
+                            <div class="rate">
+                                <img src="star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--SECOND PRODUCT-->
+                <a href="../products/product8/product.html">
+                    <div class="product-container">
+    
+                        <div class="picture-container">
+                            <img src="image/product8.jpg" alt="">
+                        </div>
+    
+                        <div class="bottom-wrapper">
+                            
+                            <div class="name-price">
+                                <p class="product-name">Monochrome Bed</p>
+                                <p class="product-price">$852.00</p>
+                            </div>
+    
+                            <div class="rate">
+                                <img src="star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+
+                </div>
+  
+                </div>  
+            </div>
+
+            
+
+            <div class="page">
+                <div class="page-num">&lt</div>
+                <div class="page-num">1</div>
+                <div class="page-num">2</div>
+                <div class="page-num">3</div>
+                <div class="page-num">&gt</div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER-->
+        <div class="footer">
+
+            <div style="width: 30%; margin-left: 150px;">
+
+                <img style="height: 120px;" src="logo.png" alt="">
+                <p style="font-size:12px; padding-right: 150px;">Lorem ipsum
+                    dolor sit amet, consectet adipiscing elit. Ut sed nulla
+                    nunc. Pellentesque a arcu porta lectus mollis commodo.</p>
+                <div class="soc-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-linkedin-square'></i>
+                </div>
+
+            </div>
+            <div style="width: 20%;">
+
+                <p style="font-size: 30px;">People</p>
+                <ul>
+                    <li><a class="people" href="#">My Account</a></li>
+                    <li><a class="people" href="#">Check Account</a></li>
+                    <li><a class="people" href="#">Help</a></li>
+                    <li><a class="people" href="#">Support</a></li>
+                    <li><a class="people" href="#">FAQ</a></li>
+                </ul>
+
+            </div>
+            <div style="width: 20%; position: relative;">
+
+                <p style="margin-bottom: 10px; font-size: 30px;">Contact Us</p>
+                <ul>
+                    <i style="position: absolute; font-size:1.3em;" class='bx
+                        bxs-location-plus'></i>
+
+                    <p style="margin-bottom: 10px;" class="contact">#123 Lorem
+                        St. Dolor, Ipsum</p>
+                    <i style="position: absolute; font-size:1.5em; top: 88px"
+                        class='bx bxs-phone'></i>
+                    <p class="contact">+63 9123-456-789</p>
+                    <p style="margin-bottom: 10px;" class="contact">+63
+                        9123-456-789</p>
+                    <i style="position: absolute; font-size:1.3em;" class='bx
+                        bxs-envelope'></i>
+                    <p class="contact">email@gmail.com</p>
+                </ul>
+
+            </div>
+            <div style="width: 40%;">
+                <p style="margin-bottom: 10px; font-size: 30px;">Join to
+                    Newsletter</p>
+                <p class="people">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut sed nulla nunc. </p>
+
+                    <div class="join_wrap join_wrap_1_">
+                        <div class="join-bar">
+                            <input type="text" class="input" placeholder="Your Email">
+                            <div class="btn btn_common">
+                                <i class='bx bx-right-arrow-alt' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
